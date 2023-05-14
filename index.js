@@ -45,7 +45,7 @@ async function start() {
     }, function (qrcode) {
       console.log(qrcode)
     });
-    console.log('Scan Qr Code');
+    console.log('Scan This Qr Code');
   });
   client.on('ready', async () => {
     console.log('Bot is ready!');
